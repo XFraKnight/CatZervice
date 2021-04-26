@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Pretendo";
+    src: url("Fonts/Pretendo.ttf");
+    }
+    @font-face {
+    font-family: "Arcade";
+    src: url("Fonts/Arcade.ttf");
+    }
+    body{
+    background-image: url("Imagenes/Fondo2.jpg");
+    }
+    header{
+    background-color: rgb(81, 78, 243);
+    width: 99%;
+    height: 220px;
+    border: 10px solid rgb(0, 0, 0);
+    background-image: url(imagenes/Gato3.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position:center;
+    }
+    aside{
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    border: 2px solid rgb(66, 66, 255);
+    border-radius: 20px;
+    font-size: 300%;
+    background-image: url(Imagenes/space.gif);
+    background-size: 100%;
+    color: white;
+    }
+    /*Titulo*/
+    h1{
+    margin-top:5%;
+    margin-left:10%;
+    font-family:"Pretendo";
+    font-size:400%;
+    }
+    .h2aside{
+    font-family:"Arcade";
+    }
+    main{
+    background-color: rgb(74, 116, 255);
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px solid rgb(66, 66, 255);
+    border-radius: 20px;
+    font-family:'roboto', 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+    li{        
+    width: 33%;
+    padding: 1%;
+    border: 2px solid rgb(0, 0, 8);
+    border-radius: 20px;
+    }
+    footer{
+    width: 90%;
+    height: 120px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px solid rgb(60, 60, 255);
+    border-radius: 20px;
+    background-color: rgba(5, 39, 151, 0.301);
+    color: aliceblue;
+    }
+    .footer{
+    margin: 2%;
+    }
+    /*MENU*/
+    .botonmenu{
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    }  
+    .menu{
+    position: relative;
+    display: inline-block;
+    }
+    .menu-contenido{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 6px 10px 0px #f1f1f1;
+    z-index: 1;
+    margin-left: 8px;
+    }
+    .menu-contenido a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    .menu-contenido a:hover {
+    background-color: #ffb6c7;
+    color: #fff;
+    }
+    .menu:hover .menu-contenido{
+    display: block;
+    }
+    .menu:hover .botonmenu{
+    background-color: red;
+    }
+    nav{
+    background-color: black;
+    }

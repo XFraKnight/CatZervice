@@ -1,0 +1,83 @@
+    @font-face {
+    font-family: "Pretendo";
+    src: url("Pretendo.ttf");
+    }
+    @font-face {
+    font-family: "Arcade";
+    src: url("Fonts/Arcade.ttf");
+    }
+    body{
+    background-image: url("Imagenes/Fondo2.jpg");
+    }
+    main{
+    background-color: rgb(74, 116, 255);
+    width: 40%;
+    height: 500px;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: 2px solid rgb(66, 66, 255);
+    border-radius: 20px;
+    font-family:'roboto', 'Open Sans', 'Helvetica Neue', sans-serif ;
+    }
+  
+    /*Botones*/
+    .start{
+    float: left;
+    width: 33%;
+    background-color:rgb(43, 226, 226);
+    font-family: "arcade";
+    border: 2px solid black;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 150%;
+    }
+    .score{
+    float: left;
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 1em;
+    font-family: "arcade";
+    text-align: center;
+    background-color: rgb(43, 226, 226);
+    font-size: 150%;
+    }
+    .exit{
+    float: left;
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 1em;
+    font-family: "arcade";
+    text-align: center;
+    background-color:rgb(43, 226, 226);
+    font-size: 150%;
+    
+    }
+    a{
+    text-decoration: none;
+    }
+    /*Snake*/
+   .grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(77, 2, 77);
+    border-style:solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+    background-image: url(Imagenes/Galaxy.jpg);
+    }
+   .grid div {
+    width: 20px;
+    height: 20px;
+    }
+    .snake {
+    background-color: rgb(36, 36, 255);
+    }
+    .apple {
+    background-color: purple;
+    }
+  
